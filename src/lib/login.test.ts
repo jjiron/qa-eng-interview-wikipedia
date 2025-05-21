@@ -30,8 +30,6 @@ test('Sign in to Wikipedia', async ({ page }) => {
     
     // Wait for the login form to be displayed.
     const loginForm = page.getByRole('form', { name: 'userlogin' });
-    await page.pause();
-    //await loginForm.waitFor();
     
     // Fill in the username and password fields.
     const usernameField = page.getByPlaceholder('Enter your username');

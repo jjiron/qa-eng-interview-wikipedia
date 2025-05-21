@@ -72,7 +72,7 @@ export async function run(page: Page, params: {}) {
     
     // First I get the default font size of the page from the boby element
     const defaultFontSize = await getFontSize(page);
-    
+
     /*  Then I click the 'Small' text size option to change the display size
         I use the locator to find the radio button by its name
         and then I click it to select the 'Small' text size option

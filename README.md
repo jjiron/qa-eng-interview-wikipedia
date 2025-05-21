@@ -59,6 +59,9 @@ npm install
 
 # Install Playwright browsers
 npx playwright install
+
+# Install dotenv module
+npm install dotenv --save
 ```
 
 ### Running Tests
